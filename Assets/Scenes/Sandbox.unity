@@ -1689,7 +1689,7 @@ PrefabInstance:
     - target: {fileID: 374286190574454170, guid: ee717c99003fcfb40b2e9b327a4abf1d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.84
+      value: 15.41
       objectReference: {fileID: 0}
     - target: {fileID: 374286190574454170, guid: ee717c99003fcfb40b2e9b327a4abf1d,
         type: 3}
@@ -1741,9 +1741,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 374286190574454170, guid: ee717c99003fcfb40b2e9b327a4abf1d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 374286190574454170, guid: ee717c99003fcfb40b2e9b327a4abf1d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 374286190574454118, guid: ee717c99003fcfb40b2e9b327a4abf1d,
         type: 3}
       propertyPath: m_StoppingDistance
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 374286190574454118, guid: ee717c99003fcfb40b2e9b327a4abf1d,
+        type: 3}
+      propertyPath: m_AutoBraking
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 374286190574454117, guid: ee717c99003fcfb40b2e9b327a4abf1d,
@@ -1751,5 +1766,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 352677391}
+    - target: {fileID: 374286190574454168, guid: ee717c99003fcfb40b2e9b327a4abf1d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee717c99003fcfb40b2e9b327a4abf1d, type: 3}
