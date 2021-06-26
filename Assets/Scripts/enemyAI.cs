@@ -45,7 +45,7 @@ public class enemyAI : MonoBehaviour
         }
 
     }
-
+ 
     void chaseTarget()
     {
         GetComponent<Animator>().SetBool("Attack", false);
