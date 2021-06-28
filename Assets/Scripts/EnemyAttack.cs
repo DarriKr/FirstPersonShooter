@@ -7,11 +7,14 @@ public class EnemyAttack : MonoBehaviour
     PlayerHealth target;
     [SerializeField] float damage = 40f;
 
-    
-
     void Start()
     {
         target = FindObjectOfType<PlayerHealth>();
+    }
+
+    public void OnDamageTaken()
+    {
+        Debug.Log(name + " I also know that we took damage");
     }
 
     public void AttackHitEvent()
